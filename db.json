@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "todo": "Makan",
+      "id": 1
+    },
+    {
+      "todo": "Tidur",
+      "id": 2
+    }
+  ]
+}

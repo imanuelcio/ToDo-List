@@ -1,0 +1,144 @@
+/* BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(209, 236, 255);
+}
+
+ul {
+  list-style: none;
+}
+
+/* CARD */
+.card {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__heading h1 {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(49, 49, 179),
+    rgb(78, 78, 183)
+  );
+  padding: 3rem 0;
+}
+
+.card__content {
+  background-color: rgb(241, 241, 241);
+  padding: 1rem;
+}
+
+.form-edit {
+  flex-basis: 80%;
+}
+
+.form-edit input {
+  width: 100%;
+}
+
+.input-no-border {
+  border: none;
+}
+
+input:disabled {
+  background-color: white;
+  color: black;
+}
+
+.input-with-border {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: -2px 4px 12px 0px rgba(196, 196, 196, 0.75);
+  -webkit-box-shadow: -2px 4px 12px 0px rgba(196, 196, 196, 0.75);
+  -moz-box-shadow: -2px 4px 12px 0px rgba(196, 196, 196, 0.75);
+}
+
+.todo-item::before {
+  content: "";
+  left: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 5px 0 0 5px;
+  width: 0.5rem;
+  height: 100%;
+  background-color: rgb(49, 49, 179);
+}
+
+.todo-item p {
+  flex-basis: 80%;
+}
+
+.todo-item input {
+  flex-basis: 80%;
+  font-size: 1rem;
+  outline: none;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: rgb(78, 78, 183);
+  cursor: pointer;
+}
+
+.btn__add {
+  flex-basis: 10%;
+  color: white;
+  border-radius: 1rem;
+}
+
+.btn__action {
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn__action-delete {
+  background-color: rgb(211, 0, 0);
+}
+
+.btn__action-edit {
+  background-color: rgb(255, 180, 17);
+}
+
+.btn__action-batal {
+  background-color: rgb(109, 109, 109);
+}
+
+.input-add {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+
+  padding: 1rem;
+  flex-basis: 90%;
+}
