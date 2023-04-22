@@ -1,5 +1,9 @@
 
 # CRUD ToDo-List Create with ReactJS with Local API
+  
+ simple CRUD ToDo project 
+  
+# This project free to copy and modify
 
-# This project free to copy
+ to run the project , make sure you run the server on command line
 
