@@ -1,6 +1,6 @@
 
 # ToDo-List Create with ReactJS and Local API
-  CRUD Functions and 
+  CRUD Functions
 # This project free to copy and modify
 
  i use Axios as http request 
